@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+
+    <Stream>
+        <MainStream>tcp://127.0.0.1:7000</MainStream>
+        <DebugVideo>D:\bajaj_kick_swing\Backend_ai\Test_Video\video_000001_20260518_192706.mp4</DebugVideo>
+        <DebugMode>False</DebugMode>
+    </Stream>
+
+    <Paths>
+        <OK_IMAGES>/home/bks01/Desktop/VISION/P-VI37-Kick_Operation_AI_Inspection/inspection_results/OK_IMAGES</OK_IMAGES>
+        <NOK_IMAGES>/home/bks01/Desktop/VISION/P-VI37-Kick_Operation_AI_Inspection/inspection_results/NOK_IMAGES</NOK_IMAGES>
+    </Paths>
+
+    <Model>
+        <ModelPath>/home/bks01/Desktop/VISION/P-VI37-Kick_Operation_AI_Inspection/MODELS/best.pt</ModelPath>
+    </Model>
+
+</Config>

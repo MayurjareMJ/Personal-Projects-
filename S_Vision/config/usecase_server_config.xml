@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UsecaseReceiverMap>
+
+    <Usecase id="SUC002">
+    <IP>192.168.0.33</IP>
+    <Port>5002</Port>
+    <Description>FireSmoke</Description>
+    </Usecase>
+
+</UsecaseReceiverMap>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+
+    <Stream>
+        <MainStream>tcp://127.0.0.1:7000</MainStream>
+        <DebugVideo>DATA_VIDEOS/2026_05_18/video_000002_20260518_193206.mp4</DebugVideo>
+        <DebugMode>False</DebugMode>
+    </Stream>
+
+    <Paths>
+        <OK_IMAGES>/media/bks01/Storage/Vision_Results/OK_IMAGES</OK_IMAGES>
+        <NOK_IMAGES>/media/bks01/Storage/Vision_Results/NOK_VIDEOS</NOK_IMAGES>
+
+         <!-- ROOT OUTPUT -->
+        <OUTPUT_ROOT>
+            /media/bks01/Storage1/OUTPUT
+        </OUTPUT_ROOT>
+        <!-- OK IMAGES -->
+        <OK_IMAGES>
+            /media/bks01/Storage1/OUTPUT\OK_IMAGES
+        </OK_IMAGES>
+        <!-- OK VIDEOS -->
+        <OK_VIDEOS>
+           /media/bks01/Storage1/OUTPUT/OK_VIDEOS
+        </OK_VIDEOS>
+        <!-- NOK VIDEOS -->
+        <NOK_VIDEOS>
+            /media/bks01/Storage1/OUTPUT/NOK_VIDEOS
+        </NOK_VIDEOS>
+        <!-- TEMP ROLLING FRAMES -->
+        <ROLLING_FRAMES>
+            /media/bks01/Storage1/OUTPUT/ROLLING_FRAMES
+        </ROLLING_FRAMES>
+    </Paths>
+
+    <Model>
+        <ModelPath>/home/bks01/Desktop/VISION/P-VI37-Kick_Operation_AI_Inspection/MODELS/best_1_June.pt</ModelPath>
+    </Model>
+
+    <Modbus>
+        <WaveshareIP>192.168.1.11</WaveshareIP>
+        <ModbusPort>502</ModbusPort>
+    </Modbus>192.168.1.11
+
+    <Database>
+        <DB_URL>postgresql+psycopg2://postgres:root123@localhost:5432/bajaj_kick_operations</DB_URL>
+    </Database>
+
+</Config>

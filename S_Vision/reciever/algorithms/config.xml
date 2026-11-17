@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <database>
+        <username>root</username>
+        <password>root123</password>
+        <host>localhost</host>
+        <port>5432</port>
+        <dbname>scout_settings</dbname>
+        <schema>98a6faaf09fc260a</schema>
+        <!-- <schema>d1a3446a75f17552</schema> -->
+    </database>
+</config>

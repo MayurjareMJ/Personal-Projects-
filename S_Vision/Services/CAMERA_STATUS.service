@@ -1,0 +1,11 @@
+[Unit]
+Description = VISION_CAMERA_STATUS_SERVICE
+After = multi-user.target
+[Service]
+Type = simple
+Restart = always 
+RestartSec = 60
+WorkingDirectory = /home/elansol/Desktop/SCOUT_VISION/camera_ping
+ExecStart = /usr/bin/python3 /home/elansol/Desktop/SCOUT_VISION/camera_ping/camera_monitor.py
+[Install]
+WantedBy = multi-user.target

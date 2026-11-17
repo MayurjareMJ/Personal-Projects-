@@ -1,0 +1,14 @@
+<receivers>
+
+    <receiver name="FIRESMOKE">
+        <usecase_id>SUC002</usecase_id>
+        <host>192.168.0.33</host>
+        <port>5002</port>
+        <model_class>FireSmoke</model_class>
+        <model_path>
+            /home/elansol/Desktop/SCOUT_VISION/reciever/models/fire_smoke_models/FireSmoke.pt
+        </model_path>
+        <org_id>98a6faaf09fc260a</org_id>
+    </receiver>
+
+</receivers>
